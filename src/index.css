@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.skill-ring {
+  transition: stroke-dashoffset 1s ease-in-out;
+  stroke-dasharray: 251.2;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1dbec;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #75777c;
+}
+
+button:active {
+  transform: scale(0.98);
+}
